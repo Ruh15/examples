@@ -1,8 +1,8 @@
 package com.rh.example.swaggerdemo.config;
 
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Profile;
 import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.builders.RequestHandlerSelectors;
 import springfox.documentation.service.ApiInfo;
@@ -14,10 +14,8 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @Configuration
 @EnableSwagger2
+@Profile({"dev"}) // 这里可以用来配置哪个环境启用swagger  -- 对应属性spring.profiles.active
 public class SwaggerConfig {
-    // 这里是用来配置是否启用swagger 的。
-    @Value("${swagger.enable: true}")
-    private boolean enableSwagger;
 
     public static final String SWAGGER_SCAN_BASE_PACKAGE = "com.rh";
     public static final String VERSION = "1.0.0";
