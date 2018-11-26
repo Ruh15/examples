@@ -1,4 +1,4 @@
-package com.rh.examples.model;
+package com.rh.examples.demos.model;
 
 import java.util.Date;
 import java.util.List;
