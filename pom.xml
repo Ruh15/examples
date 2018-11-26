@@ -5,7 +5,7 @@
 
     <groupId>com.rh.examples</groupId>
     <artifactId>examples</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>${examples.version}</version>
     <packaging>pom</packaging>
 
     <name>examples</name>
@@ -49,4 +49,27 @@
         </pluginManagement>
     </build>
 
+    <profiles>
+        <profile>
+            <id>dev</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <examples.version>0.0.1-SNAPSHOT</examples.version>
+            </properties>
+        </profile>
+        <profile>
+            <id>uat</id>
+            <properties>
+                <examples.version>0.0.1-SNAPSHOT</examples.version>
+            </properties>
+        </profile>
+        <profile>
+            <id>prod</id>
+            <properties>
+                <examples.version>0.0.1-RELEASES</examples.version>
+            </properties>
+        </profile>
+    </profiles>
 </project>
