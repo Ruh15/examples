@@ -3,6 +3,8 @@ package com.rh.examples.demos.service.impl;
 import com.rh.examples.demos.service.HelloService;
 import org.springframework.stereotype.Service;
 
+import java.util.concurrent.TimeUnit;
+
 /**
  * description:
  * author: Ruh
@@ -12,7 +14,7 @@ import org.springframework.stereotype.Service;
 public class HelloServiceImpl implements HelloService {
     public String sayHello() {
         try {
-            Thread.sleep(200);
+            TimeUnit.SECONDS.sleep(5);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
