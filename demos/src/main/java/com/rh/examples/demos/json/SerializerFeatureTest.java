@@ -1,10 +1,10 @@
-package com.rh.examples.json;
+package com.rh.examples.demos.json;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.serializer.SerializerFeature;
-import com.rh.examples.model.User;
-import com.rh.examples.model.Word;
+import com.rh.examples.demos.model.User;
+import com.rh.examples.demos.model.Word;
 
 import java.util.*;
 
