@@ -5,7 +5,7 @@
 
     <groupId>com.rh.examples</groupId>
     <artifactId>examples</artifactId>
-    <version>${examples.version}</version>
+    <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>examples</name>
@@ -48,6 +48,20 @@
             </plugins>
         </pluginManagement>
     </build>
+
+    <!-- distribute目录 -->
+    <distributionManagement>
+        <repository>
+            <id>repo</id>
+            <name>User Project Releases</name>
+            <url>http://localhost:8081/nexus/content/repositories/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>repo</id>
+            <name>User Project SNAPSHOTS</name>
+            <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
 
     <profiles>
         <profile>
