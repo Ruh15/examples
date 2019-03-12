@@ -4,15 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.rh</groupId>
     <artifactId>commonUtils</artifactId>
     <version>${examples.version}</version>
 
     <parent>
-        <groupId>com.rh.examples</groupId>
+        <groupId>com.rh.project</groupId>
         <artifactId>examples</artifactId>
         <version>${examples.version}</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath>../pom.xml</relativePath>
     </parent>
     <dependencies>
         <dependency>

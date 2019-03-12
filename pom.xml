@@ -3,9 +3,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.rh.examples</groupId>
+    <groupId>com.rh.project</groupId>
     <artifactId>examples</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>${examples.version}</version>
     <packaging>pom</packaging>
 
     <name>examples</name>
@@ -14,6 +14,8 @@
     <modules>
         <module>demos</module>
         <module>swagger-demo</module>
+        <module>actuator-demo</module>
+        <module>common-utils</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -54,12 +56,12 @@
         <repository>
             <id>repo</id>
             <name>User Project Releases</name>
-            <url>http://localhost:8081/nexus/content/repositories/releases</url>
+            <url>http://localhost:8081/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
             <id>repo</id>
             <name>User Project SNAPSHOTS</name>
-            <url>http://localhost:8081/nexus/content/repositories/snapshots</url>
+            <url>http://localhost:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
@@ -70,19 +72,19 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-                <examples.version>0.0.1-SNAPSHOT</examples.version>
+                <examples.version>1.0.0-SNAPSHOT</examples.version>
             </properties>
         </profile>
         <profile>
             <id>uat</id>
             <properties>
-                <examples.version>0.0.1-SNAPSHOT</examples.version>
+                <examples.version>1.0.0-SNAPSHOT</examples.version>
             </properties>
         </profile>
         <profile>
             <id>prod</id>
             <properties>
-                <examples.version>0.0.1-RELEASES</examples.version>
+                <examples.version>1.0.0-RELEASES</examples.version>
             </properties>
         </profile>
     </profiles>

@@ -3,7 +3,6 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.rh.example</groupId>
     <artifactId>actuator-demo</artifactId>
     <version>${examples.version}</version>
     <packaging>jar</packaging>
@@ -12,10 +11,10 @@
     <description>Demo project for Spring Boot</description>
 
     <parent>
-        <groupId>com.rh.examples</groupId>
+        <groupId>com.rh.project</groupId>
         <artifactId>examples</artifactId>
         <version>${examples.version}</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <properties>
