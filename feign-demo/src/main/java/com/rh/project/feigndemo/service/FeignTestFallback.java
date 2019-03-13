@@ -13,6 +13,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class FeignTestFallback implements FeignTestService{
     private Logger logger = LoggerFactory.getLogger(getClass());
+
     @Override
     public String get() {
         logger.info("fall back end");
