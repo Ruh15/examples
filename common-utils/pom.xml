@@ -96,6 +96,18 @@
             <artifactId>commons-email</artifactId>
             <version>1.4</version>
         </dependency>
+        <!--支付宝dingtalk SDK-->
+        <dependency>
+            <groupId>com.taobao.api</groupId>
+            <artifactId>dingtalk-sdk-java</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <!--支付宝SDK-->
+        <dependency>
+            <groupId>com.alipay.sdk</groupId>
+            <artifactId>alipay-sdk-java</artifactId>
+            <version>3.8.64.DEV</version>
+        </dependency>
     </dependencies>
 
 
