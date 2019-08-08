@@ -144,6 +144,8 @@ segmentfault：https://segmentfault.com/lives
 
 百度云下载：http://www.57fx.com/search/
 
+工具软件下载：https://www.softpedia.com/
+
 ProcessOn
 
 看云：https://www.kancloud.cn/
