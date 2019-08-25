@@ -8,6 +8,8 @@ kotlin 中文网站：https://www.kotlincn.net/
 
 IBM developer：https://www.ibm.com/developerworks/cn/
 
+bbsmax: https://www.bbsmax.com/
+
 米饭粑： https://www.mf8.biz/
 
 MDN Web 文档：https://developer.mozilla.org/zh-CN/
@@ -65,6 +67,8 @@ vuejs: https://cn.vuejs.org/
 知识库，技术百科全书：http://lib.csdn.net/base/javaee
 
 springcloud 中文网：https://springcloud.cc/
+
+java 复习进阶：https://github.com/doocs/advanced-java
 
 全栈工程师之路-Node.js： https://i5ting.github.io/nodejs-fullstack/#1
 
