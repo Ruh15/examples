@@ -1,0 +1,178 @@
+2019-09-02 18:53:52,714 INFO Starting Nacos v1.1.3 on DESKTOP-3HV9C0O with PID 7292 (E:\ruhui\code\learning\examples\nacos\target\nacos-server.jar started by admin in E:\ruhui\code\learning\examples\nacos\bin)
+
+2019-09-02 18:53:52,717 INFO The following profiles are active: standalone
+
+2019-09-02 18:53:55,088 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$25271023] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-09-02 18:53:55,178 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-09-02 18:53:55,181 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2af004b' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-09-02 18:53:55,185 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$49fbb2d5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-09-02 18:53:55,189 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2019-09-02 18:53:56,250 INFO Tomcat initialized with port(s): 8848 (http)
+
+2019-09-02 18:53:56,294 INFO Starting service [Tomcat]
+
+2019-09-02 18:53:56,294 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2019-09-02 18:53:56,310 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\admin\mysql\mysql-5.7.25-winx64\bin;C:\Program Files (x86)\Pandoc\;C:\python3.7.3;C:\Users\admin\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\admin\AppData\Local\Programs\Python\Python37\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Users\admin\AppData\Roaming\npm;C:\Program Files\Bandizip\;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.3\bin;C:\Users\admin\AppData\Local\BypassRuntm;.]
+
+2019-09-02 18:53:56,451 INFO Initializing Spring embedded WebApplicationContext
+
+2019-09-02 18:53:56,451 INFO Root WebApplicationContext: initialization completed in 3678 ms
+
+2019-09-02 18:54:02,730 INFO Use Mysql as the driver
+
+2019-09-02 18:54:03,099 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2019-09-02 18:54:03,462 INFO Adding welcome page: class path resource [static/index.html]
+
+2019-09-02 18:54:03,812 INFO Creating filter chain: Ant [pattern='/'], []
+
+2019-09-02 18:54:03,813 INFO Creating filter chain: Ant [pattern='/**/*.css'], []
+
+2019-09-02 18:54:03,815 INFO Creating filter chain: Ant [pattern='/**/*.js'], []
+
+2019-09-02 18:54:03,816 INFO Creating filter chain: Ant [pattern='/**/*.html'], []
+
+2019-09-02 18:54:03,816 INFO Creating filter chain: Ant [pattern='/**/*.map'], []
+
+2019-09-02 18:54:03,817 INFO Creating filter chain: Ant [pattern='/**/*.svg'], []
+
+2019-09-02 18:54:03,817 INFO Creating filter chain: Ant [pattern='/**/*.png'], []
+
+2019-09-02 18:54:03,818 INFO Creating filter chain: Ant [pattern='/**/*.ico'], []
+
+2019-09-02 18:54:03,818 INFO Creating filter chain: Ant [pattern='/console-fe/public/**'], []
+
+2019-09-02 18:54:03,818 INFO Creating filter chain: Ant [pattern='/v1/auth/login'], []
+
+2019-09-02 18:54:03,819 INFO Creating filter chain: Ant [pattern='/v1/console/health/**'], []
+
+2019-09-02 18:54:03,819 INFO Creating filter chain: Ant [pattern='/v1/cs/**'], []
+
+2019-09-02 18:54:03,820 INFO Creating filter chain: Ant [pattern='/v1/ns/**'], []
+
+2019-09-02 18:54:03,820 INFO Creating filter chain: Ant [pattern='/v1/cmdb/**'], []
+
+2019-09-02 18:54:03,820 INFO Creating filter chain: Ant [pattern='/actuator/**'], []
+
+2019-09-02 18:54:03,821 INFO Creating filter chain: Ant [pattern='/v1/console/server/**'], []
+
+2019-09-02 18:54:03,858 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3381b4fc, org.springframework.security.web.context.SecurityContextPersistenceFilter@31e4bb20, org.springframework.security.web.header.HeaderWriterFilter@e98770d, org.springframework.security.web.authentication.logout.LogoutFilter@1d0d6318, com.alibaba.nacos.console.filter.JwtAuthenticationTokenFilter@6bea52d4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@463b4ac8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@f001896, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@11981797, org.springframework.security.web.session.SessionManagementFilter@2f6e28bc, org.springframework.security.web.access.ExceptionTranslationFilter@57ac5227, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@278bb07e]
+
+2019-09-02 18:54:03,899 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2019-09-02 18:54:03,933 INFO Initializing ExecutorService 'taskScheduler'
+
+2019-09-02 18:54:04,046 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2019-09-02 18:54:04,053 INFO Started Nacos in 12.877 seconds (JVM running for 13.769)
+
+2019-09-02 18:54:04,054 INFO Nacos Log files: E:\ruhui\code\learning\examples\nacos/logs/
+
+2019-09-02 18:54:04,054 INFO Nacos Conf files: E:\ruhui\code\learning\examples\nacos/conf/
+
+2019-09-02 18:54:04,055 INFO Nacos Data files: E:\ruhui\code\learning\examples\nacos/data/
+
+2019-09-02 18:54:04,056 INFO Nacos started successfully in stand alone mode.
+
+2019-09-02 18:54:07,585 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2019-09-02 18:54:07,585 INFO Initializing Servlet 'dispatcherServlet'
+
+2019-09-02 18:54:07,600 INFO Completed initialization in 15 ms
+
+2019-09-02 18:54:20,460 INFO Expired JWT token.
+
+2019-09-02 18:54:20,485 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2019-09-02 19:04:02,485 INFO [capacityManagement] start correct usage
+
+2019-09-02 19:04:02,536 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-09-02 19:04:02,724 WARN clearConfigHistory start
+
+2019-09-02 19:14:02,537 INFO [capacityManagement] start correct usage
+
+2019-09-02 19:14:02,538 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-09-02 19:14:02,738 WARN clearConfigHistory start
+
+2019-09-02 19:24:02,539 INFO [capacityManagement] start correct usage
+
+2019-09-02 19:24:02,547 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-09-02 19:24:02,740 WARN clearConfigHistory start
+
+2019-09-02 19:32:39,743 INFO Expired JWT token.
+
+2019-09-02 19:32:39,749 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2019-09-02 19:34:02,549 INFO [capacityManagement] start correct usage
+
+2019-09-02 19:34:02,550 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-09-02 19:34:02,745 WARN clearConfigHistory start
+
+2019-09-02 19:34:37,024 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2019-09-02 19:44:02,550 INFO [capacityManagement] start correct usage
+
+2019-09-02 19:44:02,550 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-09-02 19:44:02,749 WARN clearConfigHistory start
+
+2019-09-02 19:54:02,551 INFO [capacityManagement] start correct usage
+
+2019-09-02 19:54:02,553 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-09-02 19:54:02,751 WARN clearConfigHistory start
+
+2019-09-02 20:04:02,553 INFO [capacityManagement] start correct usage
+
+2019-09-02 20:04:02,554 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-09-02 20:04:02,753 WARN clearConfigHistory start
+
+2019-09-02 20:14:02,555 INFO [capacityManagement] start correct usage
+
+2019-09-02 20:14:02,556 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-09-02 20:14:02,754 WARN clearConfigHistory start
+
+2019-09-02 20:17:25,241 INFO Expired JWT token.
+
+2019-09-02 20:17:25,246 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2019-09-02 20:24:02,557 INFO [capacityManagement] start correct usage
+
+2019-09-02 20:24:02,558 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-09-02 20:24:02,755 WARN clearConfigHistory start
+
+2019-09-02 20:34:02,559 INFO [capacityManagement] start correct usage
+
+2019-09-02 20:34:02,559 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-09-02 20:34:02,757 WARN clearConfigHistory start
+
+2019-09-02 20:44:02,560 INFO [capacityManagement] start correct usage
+
+2019-09-02 20:44:02,561 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-09-02 20:44:02,759 WARN clearConfigHistory start
+
+2019-09-02 20:48:05,783 INFO Expired JWT token.
+
+2019-09-02 20:48:05,784 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2019-09-02 20:54:02,563 INFO [capacityManagement] start correct usage
+
+2019-09-02 20:54:02,564 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-09-02 20:54:02,763 WARN clearConfigHistory start
+

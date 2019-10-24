@@ -2,13 +2,13 @@
 
 ## 收集的一些学习网站
 
-全栈工程师之路-Node.js： https://i5ting.github.io/nodejs-fullstack/#1
-
 编程空间： https://segmentfault.com/blog/lant 
 
 kotlin 中文网站：https://www.kotlincn.net/
 
 IBM developer：https://www.ibm.com/developerworks/cn/
+
+bbsmax: https://www.bbsmax.com/
 
 米饭粑： https://www.mf8.biz/
 
@@ -17,6 +17,8 @@ MDN Web 文档：https://developer.mozilla.org/zh-CN/
 书栈网：https://www.bookstack.cn/
 
 红黑树动画演示： https://www.cs.usfca.edu/~galles/visualization/RedBlack.html?tdsourcetag=s_pcqq_aiomsg
+
+指定算法可视化： https://www.cs.usfca.edu/~galles/visualization/Algorithms.html
 
 今日头条算法模块：https://www.toutiao.com/search/?keyword=%E7%AE%97%E6%B3%95 
 
@@ -65,6 +67,10 @@ vuejs: https://cn.vuejs.org/
 知识库，技术百科全书：http://lib.csdn.net/base/javaee
 
 springcloud 中文网：https://springcloud.cc/
+
+java 复习进阶：https://github.com/doocs/advanced-java
+
+全栈工程师之路-Node.js： https://i5ting.github.io/nodejs-fullstack/#1
 
 ## 代码托管
 
@@ -141,6 +147,8 @@ segmentfault：https://segmentfault.com/lives
 百度网盘的分享：http://pan.baidu.com/share/home?uk=487907638#category/type=0
 
 百度云下载：http://www.57fx.com/search/
+
+工具软件下载：https://www.softpedia.com/
 
 ProcessOn
 

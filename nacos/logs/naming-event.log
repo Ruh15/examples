@@ -1,0 +1,80 @@
+2019-09-02 20:28:52,255 INFO DEFAULT_GROUP@@service-provider {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.6.236:8070:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-09-02 20:28:52,263 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-provider, ips: 192.168.6.236:8070_true,
+
+2019-09-02 20:28:52,267 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-provider, ips: 192.168.6.236:8070_true,
+
+2019-09-02 20:35:55,095 INFO DEFAULT_GROUP@@service-provider {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.6.236:8070:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-09-02 20:35:55,095 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-provider, ips: 
+
+2019-09-02 20:51:38,844 INFO DEFAULT_GROUP@@service-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.6.236:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-09-02 20:51:38,844 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-consumer, ips: 192.168.6.236:8080_true,
+
+2019-09-02 20:51:46,369 INFO DEFAULT_GROUP@@service-provider {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.6.236:8070:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-09-02 20:51:46,369 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-provider, ips: 192.168.6.236:8070_true,
+
+2019-09-02 20:51:46,372 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-provider, ips: 192.168.6.236:8070_true,
+
+2019-09-02 20:53:32,521 INFO {POS} {IP-DISABLED} valid: 192.168.6.236:8070@DEFAULT@DEFAULT_GROUP@@service-provider, region: unknown, msg: client timeout after 15000, last beat: 1567428796435
+
+2019-09-02 20:53:33,876 INFO {POS} {IP-DISABLED} valid: 192.168.6.236:8080@DEFAULT@DEFAULT_GROUP@@service-consumer, region: unknown, msg: client timeout after 15000, last beat: 1567428793921
+
+2019-09-02 20:53:47,754 INFO DEFAULT_GROUP@@service-provider {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.6.236:8070:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2019-09-02 20:53:47,754 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-provider, ips: 
+
+2019-09-02 20:53:48,882 INFO DEFAULT_GROUP@@service-consumer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.6.236:8080:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2019-09-02 20:53:48,882 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-consumer, ips: 
+
+2019-09-02 20:55:21,271 INFO DEFAULT_GROUP@@service-provider {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.6.236:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-09-02 20:55:21,271 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-provider, ips: 192.168.6.236:8001_true,
+
+2019-09-02 20:55:21,275 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-provider, ips: 192.168.6.236:8001_true,
+
+2019-09-02 20:56:21,499 INFO DEFAULT_GROUP@@service-provider {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.6.236:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-09-02 20:56:21,499 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-provider, ips: 
+
+2019-09-02 20:56:28,902 INFO DEFAULT_GROUP@@nacos-discovery-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.6.236:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-09-02 20:56:28,902 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-discovery-server, ips: 192.168.6.236:8001_true,
+
+2019-09-02 20:56:28,907 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-discovery-server, ips: 192.168.6.236:8001_true,
+
+2019-09-02 20:56:45,907 INFO DEFAULT_GROUP@@nacos-discovery-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.6.236:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-09-02 20:56:45,907 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-discovery-server, ips: 
+
+2019-09-02 20:56:56,836 INFO DEFAULT_GROUP@@nacos-discovery-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.6.236:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-09-02 20:56:56,836 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-discovery-server, ips: 192.168.6.236:8001_true,
+
+2019-09-02 20:56:56,839 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-discovery-server, ips: 192.168.6.236:8001_true,
+
+2019-09-02 20:57:34,611 INFO DEFAULT_GROUP@@nacos-discovery-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.6.236:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-09-02 20:57:34,611 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-discovery-server, ips: 
+
+2019-09-02 20:57:50,877 INFO DEFAULT_GROUP@@nacos-discovery-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.6.236:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-09-02 20:57:50,877 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-discovery-server, ips: 192.168.6.236:8001_true,
+
+2019-09-02 20:58:00,521 INFO DEFAULT_GROUP@@nacos-discovery-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.6.236:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-09-02 20:58:00,521 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-discovery-server, ips: 
+
+2019-09-02 21:01:28,254 INFO DEFAULT_GROUP@@nacos-discovery-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.6.236:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2019-09-02 21:01:28,254 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-discovery-server, ips: 192.168.6.236:8001_true,
+
+2019-09-02 21:01:53,977 INFO {POS} {IP-DISABLED} valid: 192.168.6.236:8001@DEFAULT@DEFAULT_GROUP@@nacos-discovery-server, region: unknown, msg: client timeout after 15000, last beat: 1567429297651
+
+2019-09-02 21:02:08,986 INFO DEFAULT_GROUP@@nacos-discovery-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.6.236:8001:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2019-09-02 21:02:08,986 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-discovery-server, ips: 
+
