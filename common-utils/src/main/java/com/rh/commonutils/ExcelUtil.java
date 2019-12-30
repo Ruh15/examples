@@ -10,6 +10,7 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.springframework.stereotype.Service;
+import org.springframework.util.CollectionUtils;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
@@ -142,8 +143,11 @@ public class ExcelUtil {
                 continue;
             }
             // 处理当前页，循环读取每一行
-            for (int rowNum = 1; rowNum <= xssfSheet.getLastRowNum(); rowNum++) {
+            for (int rowNum = 0; rowNum <= xssfSheet.getLastRowNum(); rowNum++) {
                 XSSFRow xssfRow = xssfSheet.getRow(rowNum);
+                if (xssfRow == null) {
+                    continue;
+                }
                 int minColIx = xssfRow.getFirstCellNum();
                 int maxColIx = xssfRow.getLastCellNum();
                 List<String> rowList = new ArrayList<>();
@@ -151,22 +155,25 @@ public class ExcelUtil {
                 for (int colIx = minColIx; colIx < maxColIx; colIx++) {
                     XSSFCell cell = xssfRow.getCell(colIx);
                     if (cell == null) {
-                        continue;
+                        break;
                     }
                     if (colIx == 0) {
                         file = new File(dirPath + cell.getStringCellValue());
-                        if (file.exists()) {
-                            continue;
+                        if (!file.isDirectory() && file.exists()) {
+                            System.err.println(cell.getStringCellValue() + "已存在");
+                            break;
                         }
-
+                        rowList.add(cell.getStringCellValue());
                     }
                     if (colIx == 1) {
                         XSSFCell cell2 = xssfRow.getCell(colIx + 1);
                         downloadFile(cell.getStringCellValue(), file.getAbsolutePath(), cell2.getStringCellValue());
                     }
-                    rowList.add(cell.toString());
+//                    rowList.add(cell.toString());
                 }
-                result.add(rowList);
+                if (!CollectionUtils.isEmpty(rowList)) {
+                    result.add(rowList);
+                }
             }
         }
         return result;

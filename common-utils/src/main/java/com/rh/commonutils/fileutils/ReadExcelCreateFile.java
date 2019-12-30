@@ -13,7 +13,7 @@ import java.util.List;
  **/
 public class ReadExcelCreateFile {
     public static void main(String[] args) throws Exception {
-        String path = "E:\\ruhui\\working\\文档\\需求\\浦发对接\\文件拷贝\\10错误文件\\";
+        String path = "E:\\ruhui\\working\\文档\\需求\\浦发对接\\11月最新处理\\";
         List<List<String>> lists = ExcelUtil.readXlsx(path.concat("浦发订单合同下载地址.xlsx"), path);
 
 //        String path = "E:\\ruhui\\working\\文档\\需求\\浦发对接\\文件拷贝\\错误文件详情\\";
