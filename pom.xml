@@ -18,6 +18,7 @@
         <module>common-utils</module>
         <module>webservice</module>
         <module>webservice-client</module>
+        <module>design-pattern-demo</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
