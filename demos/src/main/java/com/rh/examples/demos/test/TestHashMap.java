@@ -1,4 +1,4 @@
-package com.rh.test;
+package com.rh.examples.demos.test;
 
 import com.alibaba.fastjson.JSON;
 
