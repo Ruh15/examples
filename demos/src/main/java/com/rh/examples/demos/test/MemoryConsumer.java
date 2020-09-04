@@ -1,4 +1,4 @@
-package com.rh.test;
+package com.rh.examples.demos.test;
 
 import java.util.Vector;
 public class MemoryConsumer {
