@@ -5,7 +5,7 @@
 
     <groupId>com.rh.example</groupId>
     <artifactId>swagger-demo</artifactId>
-    <version>${examples.version}</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>swagger-demo</name>
@@ -14,7 +14,7 @@
     <parent>
         <groupId>com.rh.project</groupId>
         <artifactId>examples</artifactId>
-        <version>${examples.version}</version>
+        <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
