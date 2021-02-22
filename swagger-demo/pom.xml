@@ -14,8 +14,7 @@
     <parent>
         <groupId>com.rh.project</groupId>
         <artifactId>examples</artifactId>
-        <version>${examples.version}</version>
-        <relativePath>../pom.xml</relativePath>
+        <version>1.0.0-SNAPSHOT</version>
     </parent>
 
     <properties>
