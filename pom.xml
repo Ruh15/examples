@@ -19,6 +19,7 @@
         <module>webservice</module>
         <module>webservice-client</module>
         <module>leetcode</module>
+        <module>design-pattern-demo</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
