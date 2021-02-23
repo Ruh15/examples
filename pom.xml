@@ -18,6 +18,7 @@
         <module>common-utils</module>
         <module>webservice</module>
         <module>webservice-client</module>
+        <module>leetcode</module>
         <module>design-pattern-demo</module>
     </modules>
     <parent>
